@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jb.integration:ingestion-model:4.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jb/integration/ingestion-model/4.0.0-SNAPSHOT/ingestion-model-4.0.0-20201113.082416-13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jb/integration/ingestion-model/4.0.0-SNAPSHOT/ingestion-model-4.0.0-20201113.082416-13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jb/integration/ingestion-model/4.0.0-SNAPSHOT/ingestion-model-4.0.0-20201113.082416-13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

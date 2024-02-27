@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="GitHub-Actions-Schema-Registry-Test-Compatibility" />
+        <module name="generator" />
+        <module name="frontend" />
+      </profile>
+      <profile name="Annotation profile for simulator" enabled="true">
+        <sourceOutputDir name="src/main/generated-sources" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="simulator" />
+      </profile>
+      <profile name="Annotation profile for integration-notification-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="integration-notification-service" />
+        <module name="integration-notification-model" />
+        <module name="portal-account-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="frontend" target="1.8" />
+      <module name="generator" target="11" />
+      <module name="generator-parent" target="1.8" />
+      <module name="GitHub-Actions-Schema-Registry-Test-Compatibility" target="8" />
+      <module name="integration-notification-model" target="17" />
+      <module name="integration-notification-service" target="17" />
+      <module name="portal" target="1.8" />
+      <module name="portal-account-api" target="17" />
+      <module name="portal-frontend" target="11" />
+      <module name="simulator" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="frontend" options="-parameters" />
+      <module name="generator" options="-parameters" />
+      <module name="integration-notification-model" options="-parameters" />
+      <module name="integration-notification-service" options="-parameters" />
+      <module name="portal-account-api" options="-parameters" />
+      <module name="simulator" options="-parameters" />
+    </option>
+  </component>
+</project>

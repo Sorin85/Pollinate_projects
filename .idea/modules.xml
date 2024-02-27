@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cp-all-in-one/github-actions-example/GitHub-Actions-Schema-Registry-Test-Compatibility.iml" filepath="$PROJECT_DIR$/cp-all-in-one/github-actions-example/GitHub-Actions-Schema-Registry-Test-Compatibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Pollinate_projects.iml" filepath="$PROJECT_DIR$/.idea/Pollinate_projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pollinate-TransactionSimulator/frontend/frontend.iml" filepath="$PROJECT_DIR$/Pollinate-TransactionSimulator/frontend/frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pollinate-TransactionSimulator/generator/generator.iml" filepath="$PROJECT_DIR$/Pollinate-TransactionSimulator/generator/generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pollinate-TransactionSimulator/generator-parent.iml" filepath="$PROJECT_DIR$/Pollinate-TransactionSimulator/generator-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integration-notification-service/notification-model/integration-notification-model.iml" filepath="$PROJECT_DIR$/integration-notification-service/notification-model/integration-notification-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integration-notification-service/notification-service/integration-notification-service.iml" filepath="$PROJECT_DIR$/integration-notification-service/notification-service/integration-notification-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/portal-frontend/portal.iml" filepath="$PROJECT_DIR$/portal-frontend/portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/portal-account-api/portal-account-api.iml" filepath="$PROJECT_DIR$/portal-account-api/portal-account-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/portal-frontend/portal-ui/portal-frontend.iml" filepath="$PROJECT_DIR$/portal-frontend/portal-ui/portal-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pollinate-TransactionSimulator/simulator/simulator.iml" filepath="$PROJECT_DIR$/Pollinate-TransactionSimulator/simulator/simulator.iml" />
+    </modules>
+  </component>
+</project>
